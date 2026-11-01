@@ -1,6 +1,6 @@
 FreeBSD router for raspberry pi 4
 =================================
-How to build a FreeBSD Router for the raspberry pi 4.
+How to build a FreeBSD Router for the raspberry pi 4. Dual ethernet port.
 
 Download the FreeBSD raspberry pi image from freebsd.org and flash with raspberry pi 4 imager from raspberry pi os.
 
