@@ -10,7 +10,7 @@ https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/15.1/FreeBSD-15.1
 
 follow the instructions steps given by the build. 
 
-You can use ee command to edit or install nano to use nano command. 
+You can use ee command to edit or install nano to use nano command to edit.
 
 packages to download:-
 
