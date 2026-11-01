@@ -1,4 +1,4 @@
-Freebsd router for raspberry pi 4
+FreeBSD router for raspberry pi 4
 =================================
 
 Download the FreeBSD raspberry pi image from freebsd.org and flash with raspberry pi 4 imager from raspberry pi os.
