@@ -71,4 +71,6 @@ https://wander.science/projects/dns/dnssec-resolver-test/
 
 https://www.dnsleaktest.com/
 
+https://browserleaks.com/webrtc
+
 http://nmap.online-domain-tools.com/
