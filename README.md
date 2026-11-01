@@ -61,3 +61,4 @@ https://wander.science/projects/dns/dnssec-resolver-test/
 
 https://www.dnsleaktest.com/
 
+http://nmap.online-domain-tools.com/
