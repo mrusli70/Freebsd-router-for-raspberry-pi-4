@@ -27,7 +27,7 @@ pkg install bind-tools
 to firstly setup make sure the wan is the main ethernet port of the raspberry pi 4.
 
 Use J5 Create USB 3.0 Ethernet for asix 88179 usb ethernet adapter. 
-Take note the Tp-link UE306 v2 does not work. (Only works on openbsd 8.0)
+Take note the Tp-link UE306 v2 does not work. (Only works on openbsd 8.0 for raspberry pi 4 -set tty fb0 and boot to install openbsd)
 
 tzsetup command to setup your country. select the list of the country according to your locations.
 type date command to update the date and time. 
