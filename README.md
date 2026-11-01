@@ -48,3 +48,12 @@ LAN is Asix 88179 USB Ethernet.
 Test Steve Gibson's GRC Sheildup stealth mode passed!
 
 https://www.grc.com/x/ne.dll?bh0bkyd2
+
+Other tests links
+
+https://www.speedtest.net/
+https://www.waveform.com/tools/bufferbloat
+https://speed.cloudflare.com/
+https://wander.science/projects/dns/dnssec-resolver-test/
+https://www.dnsleaktest.com/
+
