@@ -42,7 +42,7 @@ freebsd-update fetch install and when you (END) press q or Q to update and insta
 
 follow the instructions steps as shown by build to setup, install and configure the router. 
 
-WAN is build in Raspberry Pi 4 Ethernet.
+WAN is built in Raspberry Pi 4 Ethernet.
 LAN is Asix 88179 USB Ethernet.
 
 Test Steve Gibson's GRC Sheildup stealth mode passed!
