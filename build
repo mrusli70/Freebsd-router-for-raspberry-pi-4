@@ -116,7 +116,7 @@ service isc-dhcpd start
 service net if start
 service routing start
 
-nano /etc/susctl.conf
+nano /etc/sysctl.conf
 
 security.bsd.see_other_uids=0
 security.bsd.see_other_gids=0
