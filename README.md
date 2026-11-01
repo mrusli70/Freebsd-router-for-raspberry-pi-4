@@ -32,7 +32,11 @@ tzsetup command to setup your country. select the list of the country according 
 type date command to update the date and time. 
 yymmddhhmm (year,month,date,hour,minute)
 
+type bsdconfig command to setup your network interface and select dhcp.
+
 pkg bootstrap -f
 pkg update -f && pkg upgrade -y
 
 freebsd-update fetch install and when you (END) press q or Q and update and install the patches. 
+
+follow the instructions steps as shown by build.
