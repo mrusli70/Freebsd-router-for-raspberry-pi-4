@@ -44,3 +44,5 @@ follow the instructions steps as shown by build to setup, install and configure 
 
 WAN is build in Raspberry Pi 4 Ethernet.
 LAN is Asix 88179 USB Ethernet.
+
+Test Steve Gibson's GRC Sheildup stealth mode passed!
