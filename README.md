@@ -46,3 +46,5 @@ WAN is build in Raspberry Pi 4 Ethernet.
 LAN is Asix 88179 USB Ethernet.
 
 Test Steve Gibson's GRC Sheildup stealth mode passed!
+
+https://www.grc.com/x/ne.dll?bh0bkyd2
