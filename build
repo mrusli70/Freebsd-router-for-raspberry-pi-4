@@ -113,7 +113,7 @@ sysrc dhcpd_enable="YES"
 sysrc dhcpd_ifaces="genet0"
 service isc-dhcpd start
 
-service net if start
+service netif start
 service routing start
 
 nano /etc/sysctl.conf
