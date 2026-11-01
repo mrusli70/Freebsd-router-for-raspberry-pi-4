@@ -11,7 +11,7 @@ DHCP enable
 
 Example date 2610261120
 
-Pkg
+Pkg bootstrap -f
 Pkg update-f && pkg upgrade
 
 Freebsd-update fetch install
