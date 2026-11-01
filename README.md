@@ -39,4 +39,7 @@ pkg update -f && pkg upgrade -y
 
 freebsd-update fetch install and when you (END) press q or Q and update and install the patches. 
 
-follow the instructions steps as shown by build.
+follow the instructions steps as shown by build to setup, install and configure the router. 
+
+WAN is build in Raspberry Pi 4 Ethernet.
+LAN is Asix 88179 USB Ethernet.
