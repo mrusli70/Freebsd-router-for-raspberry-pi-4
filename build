@@ -181,7 +181,7 @@ forward-addr: 8.8.4.4@853#dns.google
 unbound-checkconf
 service local_unbound restart
 
-nano /etc/resolv,conf
+nano /etc/resolv.conf
 
 Or
 
