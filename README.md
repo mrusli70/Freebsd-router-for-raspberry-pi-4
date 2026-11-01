@@ -36,6 +36,8 @@ https://en.j5create.com/collections/ethernet-adapters/products/jue130
 
 Take note the Tp-link UE306 v2 does not work on freebsd. (Only works on openbsd 8.0 for raspberry pi 4 -set tty fb0 and boot to install openbsd)(type sh /etc/netstart axen0 up to enable dhcp on openbsd)(openbsd 8.0 router for raspberry pi 4 is buggy so i decide to use freebsd router for raspberry pi 4 instead) 
 
+https://www.tp-link.com/sg/home-networking/adapter/ue306/
+
 tzsetup command to setup your country. select the list of the country according to your locations.
 type date command to update the date and time. 
 yymmddhhmm (year,month,date,hour,minute)
