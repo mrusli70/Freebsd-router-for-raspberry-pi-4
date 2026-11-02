@@ -30,7 +30,7 @@ pkg install bind-tools
 
 to firstly setup make sure the wan is the main built-in ethernet port of the raspberry pi 4.
 
-Use J5 Create USB 3.0 Ethernet for asix 88179 usb ethernet adapter. (It work out of the box)
+Use J5 Create USB 3.0 Ethernet for asix 88179 usb ethernet adapter. (It works out of the box)
 
 https://en.j5create.com/collections/ethernet-adapters/products/jue130
 
