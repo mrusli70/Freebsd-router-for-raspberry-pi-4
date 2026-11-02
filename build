@@ -84,8 +84,8 @@ antispoof quick for $ext_if
 table <bruteforce> persist 
 block in quick from <bruteforce> to any
 
-# block in on $ext_if proto {tcp udp} to any port {22,3283,3389,5900,5937,1900,5000}
-# block out on $ext_if proto {tcp udp} from $int_if:network to any port {22,3283,3389,5900,5937,1900,5000}
+# block in on $ext_if proto {tcp udp} to any port {22,3283,3389,5900,5938,1900,5000}
+# block out on $ext_if proto {tcp udp} from $int_if:network to any port {22,3283,3389,5900,5938,1900,5000}
 
 pass out on $ext_if from $int_if:network to any keep state
 pass in on $int_if from $int_if:network to any keep state
