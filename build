@@ -36,8 +36,8 @@ sctp_load="YES"
 nano /etc/rc.conf
 host name="generic"
 ifconfig_genet0="DHCP"
-ifconfig_ue0="inet 192.168.4.1 netmask 255.255.255.0"
-defaultrouter="192.168.4.1"
+ifconfig_ue0="inet 192.168.1.1 netmask 255.255.255.0"
+defaultrouter="192.168.1.1"
 getway_enable="YES"
 dhcpd_enable="YES"
 dhcpd_ifaces="ue0"
@@ -103,9 +103,9 @@ pkg install isc-dhcpd44-server
 
 nano /usr/local/etc/dhcpd.conf
 
-subnet 192.168.4.0 netmask 255.255.255.0 {
-    range 192.168.4.10 192.168.4.20;
-    option routers 192.168.4.1;
+subnet 192.168.1.0 netmask 255.255.255.0 {
+    range 192.168.1.10 192.168.1.20;
+    option routers 192.168.1.1;
     option domain-name-servers 8.8.8.8, 8.8.4.4;
 }
 
@@ -159,7 +159,7 @@ interface: ::1
 access-control: 127.0.0.0/8 allow
 access-control: ::1 allow
 access-control: 192.168.0.0/16 allow
-access-control: 192.168.4.0/24 allow
+access-control: 192.168.1.0/24 allow
 access-control: 10.0.0.0/8 allow
 
 hide-identity: yes
