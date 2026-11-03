@@ -34,7 +34,7 @@ Use J5 Create USB 3.0 Ethernet for asix 88179 usb ethernet adapter. (It works ou
 
 https://en.j5create.com/collections/ethernet-adapters/products/jue130
 
-Take note the Tp-link UE306 v2 does not work on freebsd. Due to latest revision and chipset 88179A or 88179B. (Only works on openbsd 8.0 for raspberry pi 4 -set tty fb0 and boot to install openbsd)(type sh /etc/netstart axen0 up to enable dhcp on openbsd)(openbsd 8.0 router for raspberry pi 4 is buggy so i decide to use freebsd router for raspberry pi 4 instead)(Avoid using realtek usb ethernet adapter it does not work although it detected usbdevs -v) (Even test it with Openwrt raspberry pi 4 the UE306 version 2 does not detect only J5 create USB 3.0 Ethernet adapter works!)
+Take note the Tp-link UE306 v2 does not work on freebsd. Due to latest revision and chipset 88179A or 88179B. (Only works on openbsd 8.0 for raspberry pi 4 -set tty fb0 and boot to install openbsd)(type sh /etc/netstart axen0 up to enable dhcp on openbsd)(openbsd 8.0 router for raspberry pi 4 is working so i decide to use freebsd router for raspberry pi 4 instead)(Avoid using realtek usb ethernet adapter it does not work although it detected usbdevs -v) (Even test it with Openwrt raspberry pi 4 the UE306 version 2 does not detect only J5 create USB 3.0 Ethernet adapter works!)
 
 https://www.tp-link.com/sg/home-networking/adapter/ue306/
 
