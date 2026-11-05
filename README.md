@@ -86,3 +86,5 @@ https://ports.freebsd.org/cgi/ports.cgi
 https://www.freshports.org/
 
 to shutdown type shutdown -h now
+
+https://docs.freebsd.org/en/books/handbook/cutting-edge/
