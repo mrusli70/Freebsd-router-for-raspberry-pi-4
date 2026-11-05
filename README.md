@@ -74,3 +74,9 @@ https://www.dnsleaktest.com/
 https://browserleaks.com/webrtc
 
 http://nmap.online-domain-tools.com/
+
+check security updates, first disable pf firewall to the security patches and updates and once completed turn back on pf firewall. 
+
+check security updates via 
+
+https://www.freebsd.org/security/advisories/
