@@ -84,3 +84,5 @@ https://www.freebsd.org/security/advisories/
 https://ports.freebsd.org/cgi/ports.cgi
 
 https://www.freshports.org/
+
+to shutdown type shutdown -h now
