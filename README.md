@@ -80,3 +80,7 @@ check security updates, first disable pf firewall to the security patches and up
 check security updates via 
 
 https://www.freebsd.org/security/advisories/
+
+https://ports.freebsd.org/cgi/ports.cgi
+
+https://www.freshports.org/
