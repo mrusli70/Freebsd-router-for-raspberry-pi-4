@@ -98,11 +98,15 @@ mkdir -p /usr/local/etc/pkg/repos
 nano /usr/local/etc/pkg/repos/FreeBSD.conf
 
 FreeBSD-ports: {
+
   url: "pkg+https://pkg.FreeBSD.org/${ABI}latest"
+  
 }
 
 FreeBSD-ports-kmods: {
+
    url: "pkg+https://pkg.FreeBSD.org/${ABI}/kmods_latest_$(VERSION_MINOR)"
+   
 }
 
 pkg update -f
