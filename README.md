@@ -88,3 +88,25 @@ https://www.freshports.org/
 to shutdown type shutdown -h now
 
 https://docs.freebsd.org/en/books/handbook/cutting-edge/
+
+to get the latest packages 
+
+type 
+
+mkdir -p /usr/local/etc/pkg/repos
+
+nano /usr/local/etc/pkg/repos/FreeBSD.conf
+
+FreeBSD-ports: {
+  url: "pkg+https://pkg.FreeBSD.org/${ABI}latest"
+}
+
+FreeBSD-ports-kmods: {
+   url: "pkg+https://pkg.FreeBSD.org/${ABI}/kmods_latest_$(VERSION_MINOR)"
+}
+
+pkg update -f
+
+pkg upgrade -y
+
+pkg -vv | grep url
